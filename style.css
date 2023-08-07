@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gameContainer{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+button{
+    border: 6px solid black;
+}
+
+body{
+    background: rgb(248, 208, 78)
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Press Start 2P", cursive;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.tile{
+    border-radius: 20%;
+    height: 200;
+    width: 200;
+    margin: 10;
+}
+
+#tile1{
+    background-color: green;
+}
+#tile2{
+    background-color: blue;
+}
+#tile3{
+    background-color: yellow;
+}
+#tile4{
+    background-color: purple;
+}
+
+
+
+
+
+
+@media(max-width:700px){
+    .tile{
+        height:150;
+        width: 150;
+        margin: 10;
+    }
+}
+
+@media(max-width:350px){
+    .tile{
+        height: 100;
+        width:100;
+        margin: 10;
+    }
+}
+
+@media(max-height:815px){
+    .tile{
+        height: 175;
+        margin: 10;
+    }
+}
+    
+@media(max-height:570px){
+    .tile{
+        height: 100;
+        width:100;
+        margin: 10;
+    }
+}
+
+
+    
+@media(max-height:420px){
+    .tile{
+        height: 50;
+        width:50;
+        margin: 10;
+    }
+}
+
+@media(max-width:270px){
+    .tile{
+        height: 50;
+        width:50;
+        margin: 10;
+    }
+}
+
+
+.letUserKnow{
+    opacity: 0.4;
+}
+
+.error{
+    background-color: red;
+}
+
+
+.shadow{
+    background: #af4e4e;
+    color: #9beb33;
+    box-shadow: 0 0 5px #000000,
+                0 0 25px #000000,
+                0 0 50px #000000,
+                0 0 200px #000000;
+}
